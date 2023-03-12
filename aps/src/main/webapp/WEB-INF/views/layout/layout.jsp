@@ -7,9 +7,11 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title></title>
+<title><tiles:insertAttribute name="title"></tiles:insertAttribute></title>
 </head>
 <body>
-	Hello
+	<tiles:insertAttribute name="header"></tiles:insertAttribute>
+	<tiles:insertAttribute name="body"></tiles:insertAttribute>
+	<tiles:insertAttribute name="footer"></tiles:insertAttribute>
 </body>
 </html>
